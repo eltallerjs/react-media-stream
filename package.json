@@ -49,5 +49,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "react-flv-player": "^1.0.9"
+  }
 }

@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { MediaLiveStream } from '.'
 
-describe('ExampleComponent', () => {
+describe('MediaLiveStream', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(MediaLiveStream).toBeTruthy()
   })
 })

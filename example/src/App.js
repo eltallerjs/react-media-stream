@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-media-stream'
+import { MediaLiveStream } from 'react-media-stream'
 import 'react-media-stream/dist/index.css'
 
 const App = () => {
-  return (<ExampleComponent text="Create React Library Example 😄" />);
+  return (<MediaLiveStream url="http://localhost:8000/live/SYSTEC.flv" />);
 }
 
 export default App

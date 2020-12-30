@@ -15,12 +15,12 @@ npm install --save react-media-stream
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-media-stream'
+import MediaLiveStream from 'react-media-stream'
 import 'react-media-stream/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MediaLiveStream url="http://localhost:8000/live/SYSTEC.flv" />
   }
 }
 ```
